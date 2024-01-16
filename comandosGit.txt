@@ -1,0 +1,44 @@
+Comandos básicos de Git:
+
+	- git init: Inicia un nuevo repositorio Git en el directorio actual.
+
+	- git clone <url>: Clona un repositorio remoto en tu máquina local.
+
+	- git add <archivo(s)>: Añade cambios al área de preparación para ser incluidos en el próximo commit.
+
+	- git commit -m "<mensaje>": Realiza un commit con los cambios en el área de preparación y agrega un mensaje descriptivo.
+
+	- git status: Muestra el estado actual del repositorio, indicando archivos modificados, añadidos, etc.
+
+	- git log: Muestra el historial de commits del repositorio.
+
+	- git branch: Lista las ramas presentes en el repositorio.
+
+	- git checkout <rama>: Cambia a la rama especificada.
+
+	- git merge <rama>: Fusiona la rama especificada con la rama actual.
+
+	- git pull: Actualiza el repositorio local con los cambios del repositorio remoto.
+
+	- git push: Sube los cambios locales al repositorio remoto.
+
+
+Comandos básicos de GitHub:
+
+	- git remote -v: Muestra las URLs de los repositorios remotos configurados.
+
+	- git remote add origin <url>: Añade un nuevo repositorio remoto llamado "origin".
+
+	- git fork: Crea una copia del repositorio de otra persona en tu cuenta de GitHub.
+
+	- git pull origin <rama>: Actualiza la rama local con los cambios de la rama remota en GitHub.
+
+	- git push origin <rama>: Sube los cambios locales a la rama remota en GitHub.
+
+	- git pull request: Abre una solicitud de extracción en GitHub para fusionar cambios de una rama a otra.
+
+	- git clone <repositorio>: Clona un repositorio desde GitHub a tu máquina local.
+
+	- git fetch: Descarga cambios del repositorio remoto sin fusionarlos con tu trabajo local.
+
+	- git remote show origin: Muestra información detallada sobre el repositorio remoto llamado "origin".
