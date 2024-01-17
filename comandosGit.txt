@@ -12,6 +12,8 @@ Comandos básicos de Git:
 
 	- git log: Muestra el historial de commits del repositorio.
 
+	- git log --oneline: Registro de todo lo que está pasando en Git.
+
 	- git branch: Lista las ramas presentes en el repositorio.
 
 	- git checkout <rama>: Cambia a la rama especificada.
