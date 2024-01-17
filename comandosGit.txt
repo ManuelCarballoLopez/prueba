@@ -14,7 +14,13 @@ Comandos básicos de Git:
 
 	- git log --oneline: Registro de todo lo que está pasando en Git.
 
+	- git log --oneline --graph: Nos muestra visualmente las ramas.
+
 	- git branch: Lista las ramas presentes en el repositorio.
+
+	- git branch nombreRama: Crea una nueva rama.
+
+	- git branch -d nombreRama: Elimina una rama.
 
 	- git checkout <rama>: Cambia a la rama especificada.
 
@@ -23,6 +29,26 @@ Comandos básicos de Git:
 	- git pull: Actualiza el repositorio local con los cambios del repositorio remoto.
 
 	- git push: Sube los cambios locales al repositorio remoto.
+
+	- git reset --hard <rama>: Viajamos al commit en específico <rama> y eliminamos los cambios futuros.
+
+	- git reflog: Muestra todos los cambios incluso si borramos los commit.
+
+	- git revert <rama>: Deshace los cambios realizados por un commit anterior creando un commit completamente nuevo, todo esto sin alterar el historial de commits.
+ 
+	- git switch -c nombreRama: Crear una nueva rama y moverse a ella.
+
+	- git switch nombreRama: Moverse a una rama existente.
+
+	- git tag versionAlpha -m "versión alpha": Crear un tags.
+
+	- git tag: Listar tags.
+
+	- git tag -d nombreTags: Borrar tags.
+
+	- git push --tags: Subir tags.
+
+	- git show nombreTag: Mostrar información del tag.
 
 
 Comandos básicos de GitHub:
